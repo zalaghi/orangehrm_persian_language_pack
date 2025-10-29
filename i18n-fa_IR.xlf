@@ -5,7 +5,7 @@
       <unit id="deleted">
         <segment>
           <source> (Deleted)</source>
-          <target> (Deleted)</target>
+          <target>‏(حذف‌شده)</target>
         </segment>
       </unit>
       <unit id="past_employee">
@@ -29,13 +29,13 @@
       <unit id="accept_jpg_png_upto_1mb_recomended_dimentions_200px_x_200px">
         <segment>
           <source>Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px</source>
-          <target>Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px</target>
+          <target>فرمت‌های jpg، .png، .gif تا ۱ مگابایت پذیرفته می‌شود. ابعاد پیشنهادی: 200px × 200px</target>
         </segment>
       </unit>
       <unit id="accept_jpg_png_gif_upto_recommended_dimensions">
         <segment>
           <source>Accepts jpg, .png, .gif, .svg up to {fileSize}. Recommended dimensions: {width}px X {height}px</source>
-          <target>Accepts jpg, .png, .gif, .svg up to {fileSize}. Recommended dimensions: {width}px X {height}px</target>
+          <target>فرمت‌های jpg، .png، .gif، .svg تا {fileSize} پذیرفته می‌شود. ابعاد پیشنهادی: {width}px × {height}px</target>
         </segment>
       </unit>
       <unit id="access_records">
@@ -2179,19 +2179,19 @@
       <unit id="user_unique_attribute_input_hint">
         <segment>
           <source>Attribute field to use as a unique immutable identifier for user objects. This is used to track username changes. Ex: entryUUID, objectGUID</source>
-          <target>Attribute field to use as a unique immutable identifier for user objects. This is used to track username changes. Ex: entryUUID, objectGUID</target>
+          <target>مشخصه فیلد به استفاده به‌عنوان یک یکتا تغییرناپذیر شناسه for user objects. این است استفاده می‌شود به رهگیری نام کاربری changes. Ex: entryUUID, objectGUID</target>
         </segment>
       </unit>
       <unit id="user_name_input_hint">
         <segment>
           <source>Attribute field to use when loading the username. Ex: cn, SMA account name</source>
-          <target>Attribute field to use when loading the username. Ex: cn, SMA account name</target>
+          <target>فیلد مشخصه برای بارگذاری نام کاربری. مثال: cn، نام حساب SMA</target>
         </segment>
       </unit>
       <unit id="user_search_filter_input_hint">
         <segment>
           <source>Attribute field to use when searching user objects. Ex: objectClass=person</source>
-          <target>Attribute field to use when searching user objects. Ex: objectClass=person</target>
+          <target>مشخصه فیلد به استفاده when searching user objects. Ex: objectClass=person</target>
         </segment>
       </unit>
       <unit id="authentication">
@@ -2209,7 +2209,7 @@
       <unit id="ldap_configuration_warning_message">
         <segment>
           <source>Before activating the LDAP service, make sure that all LDAP settings are functioning properly since incorrect configuration may result in corrupted data. As a precaution, we recommend you to create a backup of your database before continuing.</source>
-          <target>Before activating the LDAP service, make sure that all LDAP settings are functioning properly since incorrect configuration may result in corrupted data. As a precaution, we recommend you to create a backup of your database before continuing.</target>
+          <target>Before activating the LDAP service, make sure that all LDAP settings are functioning properly since incorrect configuration may result in corrupted data. به‌عنوان یک precaution, we recommend you به create یک backup of your database before continuing.</target>
         </segment>
       </unit>
       <unit id="bind_anonymously">
@@ -2281,7 +2281,7 @@
       <unit id="distinguished_name">
         <segment>
           <source>Distinguished Name</source>
-          <target>DN</target>
+          <target>Distinguished نام</target>
         </segment>
       </unit>
       <unit id="do_not_change_the_template">
@@ -2629,13 +2629,13 @@
       <unit id="plural_placeholder_mismatch">
         <segment>
           <source>Mismatch found between plural expression placeholder</source>
-          <target>Mismatch found between plural expression placeholder</target>
+          <target>عدم تطابق بین جای‌نگهدار عبارت plural</target>
         </segment>
       </unit>
       <unit id="select_placeholder_mismatch">
         <segment>
           <source>Mismatch found between select expression placeholder</source>
-          <target>Mismatch found between select expression placeholder</target>
+          <target>عدم تطابق بین جای‌نگهدار عبارت select</target>
         </segment>
       </unit>
       <unit id="module">
@@ -2701,7 +2701,7 @@
       <unit id="only_edit_the_target_field">
         <segment>
           <source>Only edit the target field</source>
-          <target>Only edit the target field</target>
+          <target>Only edit the target فیلد</target>
         </segment>
       </unit>
       <unit id="open_ldap_v3">
@@ -3223,7 +3223,7 @@
       <unit id="fix_errors">
         <segment>
           <source>{count,plural, one{Fix Error} other{ Fix Errors}}</source>
-          <target>{count,plural, one{Fix Error} other{ Fix Errors}}</target>
+          <target>{count, plural, one{رفع خطا} other{رفع خطاها}}</target>
         </segment>
       </unit>
       <unit id="n_users_found">
@@ -4353,13 +4353,13 @@
       <unit id="n_records_failed_to_import">
         <segment>
           <source>{count,plural, =0{No Records Failed to Import} one{1 Record Failed to Import} other{ # Records Failed to Import}}</source>
-          <target>{count,plural, =0{No سوابق ناموفق to Import} one{1 سابقه ناموفق to Import} other{ # سوابق ناموفق to Import}}</target>
+          <target>{count, plural, =0{هیچ رکوردی با خطا وارد نشد} one{1 رکورد با خطا وارد شد} other{# رکورد با خطا وارد شد}}</target>
         </segment>
       </unit>
       <unit id="n_records_successfully_imported">
         <segment>
           <source>{count,plural, =0{No Records Imported} one{1 Record Successfully Imported} other{ # Records Successfully Imported}}</source>
-          <target>{count,plural, =0{No سوابق Imported} one{1 سابقه Successfully Imported} other{ # سوابق Successfully Imported}}</target>
+          <target>{count, plural, =0{هیچ رکوردی وارد نشد} one{1 رکورد با موفقیت وارد شد} other{# رکورد با موفقیت وارد شد}}</target>
         </segment>
       </unit>
     </group>
@@ -4403,7 +4403,7 @@
       <unit id="bulk_leave_action_confirm_message_two">
         <segment>
           <source>Are you sure you want to continue?</source>
-          <target>Are you sure you want to continue?</target>
+          <target>Are you sure you want به continue?</target>
         </segment>
       </unit>
       <unit id="as_of_date">
@@ -4427,7 +4427,7 @@
       <unit id="at_least_one_day_should_be_a_working_day">
         <segment>
           <source>At least one day should be a working day</source>
-          <target>At least one day should be a working day</target>
+          <target>At least one day should be یک working day</target>
         </segment>
       </unit>
       <unit id="available_balance">
@@ -4541,7 +4541,7 @@
       <unit id="entitlements_will_not_be_deleted_since_already_in_use">
         <segment>
           <source>Entitlement(s) will not be deleted since it''s already in use</source>
-          <target>Entitlement(s) will not be deleted since it''s already in use</target>
+          <target>Entitlement(s) will not be deleted since it''s already in استفاده</target>
         </segment>
       </unit>
       <unit id="entitlement_value_confirmation_message">
@@ -4907,13 +4907,13 @@
       <unit id="selected_leave_entitlement_applied_to_following_employees">
         <segment>
           <source>The selected leave entitlement will be applied to the following employees.</source>
-          <target>The selected leave entitlement will be applied to the following employees.</target>
+          <target>The selected leave entitlement will be applied به the following employees.</target>
         </segment>
       </unit>
       <unit id="entitlement_situational_description">
         <segment>
           <source>These leave will be excluded from reports unless there's some activity. E.g. maternity leave, jury duty leave.</source>
-          <target>These leave will be excluded from reports unless there's some activity. E.g. maternity leave, jury duty leave.</target>
+          <target>این مرخصی‌ها مگر فعالیتی رخ دهد در گزارش‌ها لحاظ نمی‌شوند؛ مانند مرخصی زایمان یا مرخصی حضور در هیأت منصفه.</target>
         </segment>
       </unit>
       <unit id="total_entitlement">
@@ -4979,31 +4979,31 @@
       <unit id="leave_action">
         <segment>
           <source>{action, select, APPROVE {Approve Leave} REJECT {Reject Leave} other {Cancel Leave}}</source>
-          <target>{action, select, APPROVE {تأیید مرخصی} REJECT {رد مرخصی} other {لغو مرخصی}}</target>
+          <target>{action, select, APPROVE {Approve Leave} رد {Reject Leave} other {Cancel Leave}}</target>
         </segment>
       </unit>
       <unit id="leave_requests_action">
         <segment>
           <source>{action, select, APPROVE {{count, plural, =0 {No Leave Requests Approved} =1 {1 Leave Request Approved} other {# Leave Requests Approved} }} REJECT {{count, plural, =0 {No Leave Requests Rejected} =1 {1 Leave Request Rejected} other {# Leave Requests Rejected} }} other {{count, plural, =0 {No Leave Requests Cancelled} =1 {1 Leave Request Cancelled} other {# Leave Requests Cancelled} }} }</source>
-          <target>{action, select, APPROVE {{count, plural, =0 {No مرخصی Requests Approved} =1 {1 مرخصی Request Approved} other {# مرخصی Requests Approved} }} REJECT {{count, plural, =0 {No مرخصی Requests Rejected} =1 {1 مرخصی Request Rejected} other {# مرخصی Requests Rejected} }} other {{count, plural, =0 {No مرخصی Requests Cancelled} =1 {1 مرخصی Request Cancelled} other {# مرخصی Requests Cancelled} }} }</target>
+          <target>{action, select, APPROVE {{count, plural, =0 {No Leave Requests Approved} =1 {1 Leave Request Approved} other {# Leave Requests Approved} }} رد {{count, plural, =0 {No Leave Requests Rejected} =1 {1 Leave Request Rejected} other {# Leave Requests Rejected} }} other {{count, plural, =0 {No Leave Requests Cancelled} =1 {1 Leave Request Cancelled} other {# Leave Requests Cancelled} }} }</target>
         </segment>
       </unit>
       <unit id="bulk_leave_action_confirm_message_one">
         <segment>
           <source>{action, select, APPROVE {{count, plural, =0 {You are about to Approve no Leave Requests} =1 {You are about to Approve 1 Leave Request} other {You are about to Approve # Leave Requests} }} REJECT {{count, plural, =0 {You are about to Reject no Leave Requests} =1 {You are about to Reject 1 Leave Request} other {You are about to Reject # Leave Requests} }} other {{count, plural, =0 {You are about to Cancel no Leave Requests} =1 {You are about to Cancel 1 Leave Request} other {You are about to Cancel # Leave Requests} }} }</source>
-          <target>{action, select, APPROVE {{count, plural, =0 {You are about to تأیید no مرخصی Requests} =1 {You are about to تأیید 1 مرخصی Request} other {You are about to تأیید # مرخصی Requests} }} REJECT {{count, plural, =0 {You are about to رد no مرخصی Requests} =1 {You are about to رد 1 مرخصی Request} other {You are about to رد # مرخصی Requests} }} other {{count, plural, =0 {You are about to لغو no مرخصی Requests} =1 {You are about to لغو 1 مرخصی Request} other {You are about to لغو # مرخصی Requests} }} }</target>
+          <target>{action, select, APPROVE {{count, plural, =0 {You are about to Approve no Leave Requests} =1 {You are about to Approve 1 Leave Request} other {You are about to Approve # Leave Requests} }} رد {{count, plural, =0 {You are about to Reject no Leave Requests} =1 {You are about to Reject 1 Leave Request} other {You are about to Reject # Leave Requests} }} other {{count, plural, =0 {You are about to Cancel no Leave Requests} =1 {You are about to Cancel 1 Leave Request} other {You are about to Cancel # Leave Requests} }} }</target>
         </segment>
       </unit>
       <unit id="entitlement_added_to_n_employees">
         <segment>
           <source>{count, plural, =0{No Entitlement added} one{Entitlement added to 1 employee} other {Entitlement added to # employees}}</source>
-          <target>{count, plural, =0{No سهمیه added} one{Entitlement added to 1 employee} other {Entitlement added to # employees}}</target>
+          <target>{count, plural, =0{هیچ سهمیه‌ای افزوده نشد} one{سهمیه به 1 کارمند افزوده شد} other{سهمیه به # کارمند افزوده شد}}</target>
         </segment>
       </unit>
       <unit id="matches_emp_count_employees">
         <segment>
           <source>{empMatchCount,plural, =0{Matches no employee} one{Matches (1) employee} other {matches (#) employees}}</source>
-          <target>{empMatchCount,plural, =0{Matches no employee} one{Matches (1) employee} other {matches (#) employees}}</target>
+          <target>{empMatchCount, plural, =0{هیچ کارمندی مطابق نیست} one{با 1 کارمند مطابقت دارد} other{با # کارمند مطابقت دارد}}</target>
         </segment>
       </unit>
     </group>
@@ -5251,7 +5251,7 @@
       <unit id="select_a_day_to_create_timesheet">
         <segment>
           <source>Select a Day to Create Timesheet</source>
-          <target>Select a Day to Create Timesheet</target>
+          <target>Select یک Day به Create Timesheet</target>
         </segment>
       </unit>
       <unit id="select_a_project">
@@ -5275,13 +5275,13 @@
       <unit id="should_be_less_than_24_and_in_hh_mm_or_decimal_format">
         <segment>
           <source>Should Be Less Than 24 and in HH:MM or Decimal Format</source>
-          <target>Should Be Less Than 24 and in HH:MM or Decimal Format</target>
+          <target>باید کمتر از ۲۴ و در قالب HH:MM یا اعشاری باشد</target>
         </segment>
       </unit>
       <unit id="submitted">
         <segment>
           <source>Submitted</source>
-          <target>Submitted</target>
+          <target>ارسال شد</target>
         </segment>
       </unit>
       <unit id="time_hours">
@@ -5293,7 +5293,7 @@
       <unit id="timesheet_action">
         <segment>
           <source>Timesheet Action</source>
-          <target>Timesheet Action</target>
+          <target>Timesheet عمل</target>
         </segment>
       </unit>
       <unit id="timesheet_approved">
@@ -5305,7 +5305,7 @@
       <unit id="timesheet_period">
         <segment>
           <source>Timesheet Period</source>
-          <target>Timesheet Period</target>
+          <target>دوره برگه زمانی</target>
         </segment>
       </unit>
       <unit id="timesheet_period_not_defined">
@@ -5329,19 +5329,19 @@
       <unit id="timesheet_submitted">
         <segment>
           <source>Timesheet Submitted</source>
-          <target>Timesheet Submitted</target>
+          <target>برگه زمانی ارسال شد</target>
         </segment>
       </unit>
       <unit id="timesheet_successfully_created">
         <segment>
           <source>Timesheet Successfully Created</source>
-          <target>Timesheet Successfully Created</target>
+          <target>برگه زمانی با موفقیت ایجاد شد</target>
         </segment>
       </unit>
       <unit id="timesheet_for">
         <segment>
           <source>Timesheet for</source>
-          <target>Timesheet for</target>
+          <target>برگه زمانی برای</target>
         </segment>
       </unit>
       <unit id="timesheets_pending_action">
@@ -5385,19 +5385,19 @@
       <unit id="application_initiated">
         <segment>
           <source>Application Initiated</source>
-          <target>Application Initiated</target>
+          <target>درخواست آغاز شد</target>
         </segment>
       </unit>
       <unit id="application_received">
         <segment>
           <source>Application Received</source>
-          <target>Application Received</target>
+          <target>درخواست دریافت شد</target>
         </segment>
       </unit>
       <unit id="application_stage">
         <segment>
           <source>Application Stage</source>
-          <target>Application Stage</target>
+          <target>مرحله درخواست</target>
         </segment>
       </unit>
       <unit id="apply_for_n_vacancy">
@@ -5409,13 +5409,13 @@
       <unit id="candidate">
         <segment>
           <source>Candidate</source>
-          <target>Candidate</target>
+          <target>متقاضی</target>
         </segment>
       </unit>
       <unit id="candidate_history">
         <segment>
           <source>Candidate History</source>
-          <target>Candidate History</target>
+          <target>متقاضی History</target>
         </segment>
       </unit>
       <unit id="candidate_name">
@@ -5427,13 +5427,13 @@
       <unit id="candidate_profile">
         <segment>
           <source>Candidate Profile</source>
-          <target>Candidate Profile</target>
+          <target>متقاضی Profile</target>
         </segment>
       </unit>
       <unit id="consent_to_keep_data">
         <segment>
           <source>Consent to keep data</source>
-          <target>Consent to keep data</target>
+          <target>Consent به keep data</target>
         </segment>
       </unit>
       <unit id="contact_number">
@@ -5457,7 +5457,7 @@
       <unit id="decline_offer">
         <segment>
           <source>Decline Offer</source>
-          <target>Decline Offer</target>
+          <target>Decline پیشنهاد</target>
         </segment>
       </unit>
       <unit id="edit_vacancy">
@@ -5469,31 +5469,31 @@
       <unit id="enter_comma_seperated_words">
         <segment>
           <source>Enter comma seperated words</source>
-          <target>Enter comma seperated words</target>
+          <target>کلمات را با ویرگول از هم جدا کنید</target>
         </segment>
       </unit>
       <unit id="hire">
         <segment>
           <source>Hire</source>
-          <target>Hire</target>
+          <target>استخدام</target>
         </segment>
       </unit>
       <unit id="hire_candidate">
         <segment>
           <source>Hire Candidate</source>
-          <target>Hire Candidate</target>
+          <target>Hire متقاضی</target>
         </segment>
       </unit>
       <unit id="hired">
         <segment>
           <source>Hired</source>
-          <target>Hired</target>
+          <target>استخدام شد</target>
         </segment>
       </unit>
       <unit id="hiring_manager">
         <segment>
           <source>Hiring Manager</source>
-          <target>Hiring Manager</target>
+          <target>مدیر استخدام</target>
         </segment>
       </unit>
       <unit id="interview_failed">
@@ -5505,25 +5505,25 @@
       <unit id="interview_passed">
         <segment>
           <source>Interview Passed</source>
-          <target>Interview Passed</target>
+          <target>مصاحبه Passed</target>
         </segment>
       </unit>
       <unit id="interview_scheduled">
         <segment>
           <source>Interview Scheduled</source>
-          <target>Interview برنامه‌ریزی‌شده</target>
+          <target>مصاحبه زمان‌بندی شد</target>
         </segment>
       </unit>
       <unit id="interview_title">
         <segment>
           <source>Interview Title</source>
-          <target>Interview Title</target>
+          <target>مصاحبه Title</target>
         </segment>
       </unit>
       <unit id="interviewer">
         <segment>
           <source>Interviewer</source>
-          <target>Interviewer</target>
+          <target>مصاحبه‌کننده</target>
         </segment>
       </unit>
       <unit id="job_offered">
@@ -5541,13 +5541,13 @@
       <unit id="keywords">
         <segment>
           <source>Keywords</source>
-          <target>Keywords</target>
+          <target>کلیدواژه‌ها</target>
         </segment>
       </unit>
       <unit id="manual">
         <segment>
           <source>Manual</source>
-          <target>Manual</target>
+          <target>دستی</target>
         </segment>
       </unit>
       <unit id="mark_interview_failed">
@@ -5559,13 +5559,13 @@
       <unit id="mark_interview_passed">
         <segment>
           <source>Mark Interview Passed</source>
-          <target>Mark Interview Passed</target>
+          <target>Mark مصاحبه Passed</target>
         </segment>
       </unit>
       <unit id="method_of_application">
         <segment>
           <source>Method of Application</source>
-          <target>Method of Application</target>
+          <target>روش ارسال درخواست</target>
         </segment>
       </unit>
       <unit id="num_of_positions">
@@ -5577,7 +5577,7 @@
       <unit id="offer_declined">
         <segment>
           <source>Offer Declined</source>
-          <target>Offer Declined</target>
+          <target>پیشنهاد رد شد</target>
         </segment>
       </unit>
       <unit id="offer_job">
@@ -5589,13 +5589,13 @@
       <unit id="online">
         <segment>
           <source>Online</source>
-          <target>Online</target>
+          <target>آنلاین</target>
         </segment>
       </unit>
       <unit id="performed_action">
         <segment>
           <source>Performed Action</source>
-          <target>Performed Action</target>
+          <target>عمل انجام‌شده</target>
         </segment>
       </unit>
       <unit id="performed_date">
@@ -5607,7 +5607,7 @@
       <unit id="powered_by">
         <segment>
           <source>Powered By</source>
-          <target>Powered By</target>
+          <target>قدرت‌گرفته از</target>
         </segment>
       </unit>
       <unit id="publish_in_rss_feed_and_web_page">
@@ -5619,67 +5619,67 @@
       <unit id="rss_feed_url">
         <segment>
           <source>RSS Feed URL</source>
-          <target>RSS Feed URL</target>
+          <target>نشانی خوراک RSS</target>
         </segment>
       </unit>
       <unit id="reject_candidate">
         <segment>
           <source>Reject Candidate</source>
-          <target>Reject Candidate</target>
+          <target>رد متقاضی</target>
         </segment>
       </unit>
       <unit id="resume">
         <segment>
           <source>Resume</source>
-          <target>Resume</target>
+          <target>رزومه</target>
         </segment>
       </unit>
       <unit id="schedule_interview">
         <segment>
           <source>Schedule Interview</source>
-          <target>Schedule Interview</target>
+          <target>زمان‌بندی مصاحبه</target>
         </segment>
       </unit>
       <unit id="shortlist">
         <segment>
           <source>Shortlist</source>
-          <target>Shortlist</target>
+          <target>فهرست کوتاه</target>
         </segment>
       </unit>
       <unit id="shortlist_candidate">
         <segment>
           <source>Shortlist Candidate</source>
-          <target>Shortlist Candidate</target>
+          <target>Shortlist متقاضی</target>
         </segment>
       </unit>
       <unit id="shortlisted">
         <segment>
           <source>Shortlisted</source>
-          <target>Shortlisted</target>
+          <target>در فهرست کوتاه</target>
         </segment>
       </unit>
       <unit id="candidate_shortlisted_for_vacancy_by_employee">
         <segment>
           <source>Shortlisted for {vacancy} by {employee}</source>
-          <target>Shortlisted for {vacancy} by {employee}</target>
+          <target>Shortlisted for {vacancy} از {employee}</target>
         </segment>
       </unit>
       <unit id="should_be_current_date_previous_date">
         <segment>
           <source>Should be the current date or a previous date</source>
-          <target>Should be the current date or a previous date</target>
+          <target>Should be the current date or یک previous date</target>
         </segment>
       </unit>
       <unit id="candidate_vacancy_change_message">
         <segment>
           <source>This action will remove previous vacancy. Are you sure you want to continue?</source>
-          <target>This action will remove previous vacancy. Are you sure you want to continue?</target>
+          <target>این عمل will remove previous vacancy. Are you sure you want به continue?</target>
         </segment>
       </unit>
       <unit id="vacancy">
         <segment>
           <source>Vacancy</source>
-          <target>Vacancy</target>
+          <target>جایگاه خالی</target>
         </segment>
       </unit>
       <unit id="vacancy_name">
@@ -5697,79 +5697,79 @@
       <unit id="web_page_url">
         <segment>
           <source>Web Page URL</source>
-          <target>Web Page URL</target>
+          <target>Web Page نشانی</target>
         </segment>
       </unit>
       <unit id="your_application_has_been_submitted_successfully">
         <segment>
           <source>Your application has been submitted successfully</source>
-          <target>Your application has been submitted successfully</target>
+          <target>درخواست شما با موفقیت ثبت شد</target>
         </segment>
       </unit>
       <unit id="candidate_applied_for_the_vacancy">
         <segment>
           <source>{candidate} applied for the vacancy {vacancy}</source>
-          <target>{candidate} applied for the vacancy {vacancy}</target>
+          <target>{candidate} برای جایگاه {vacancy} درخواست داد</target>
         </segment>
       </unit>
       <unit id="employee_added_candidate">
         <segment>
           <source>{employee} added {candidate}</source>
-          <target>{employee} added {candidate}</target>
+          <target>{employee} {candidate} را افزود</target>
         </segment>
       </unit>
       <unit id="employee_assigned_vacancy_to_candidate">
         <segment>
           <source>{employee} assigned the job vacancy {vacancy}</source>
-          <target>{employee} assigned the job vacancy {vacancy}</target>
+          <target>{employee} جایگاه شغلی {vacancy} را اختصاص داد</target>
         </segment>
       </unit>
       <unit id="employee_hired_the_candidate">
         <segment>
           <source>{employee} hired {candidate} for {vacancy}</source>
-          <target>{employee} hired {candidate} for {vacancy}</target>
+          <target>{employee} {candidate} را برای {vacancy} استخدام کرد</target>
         </segment>
       </unit>
       <unit id="employee_marked_the_offer_declined">
         <segment>
           <source>{employee} marked the offer as declined for {vacancy}</source>
-          <target>{employee} marked the offer as declined for {vacancy}</target>
+          <target>{employee} marked the پیشنهاد به‌عنوان رد شد for {vacancy}</target>
         </segment>
       </unit>
       <unit id="employee_marked_interveiw_failed">
         <segment>
           <source>{employee} marked {interview} as failed for {vacancy}</source>
-          <target>{employee} marked {interview} as failed for {vacancy}</target>
+          <target>{employee} marked {interview} به‌عنوان failed for {vacancy}</target>
         </segment>
       </unit>
       <unit id="employee_marked_interveiw_passed">
         <segment>
           <source>{employee} marked {interview} as passed for {vacancy}</source>
-          <target>{employee} marked {interview} as passed for {vacancy}</target>
+          <target>{employee} marked {interview} به‌عنوان passed for {vacancy}</target>
         </segment>
       </unit>
       <unit id="employee_offered_the_job">
         <segment>
           <source>{employee} offered the job for {vacancy}</source>
-          <target>{employee} offered the job for {vacancy}</target>
+          <target>{employee} پیشنهاد شغلی برای {vacancy} ارسال کرد</target>
         </segment>
       </unit>
       <unit id="employee_rejected_the_candidate">
         <segment>
           <source>{employee} rejected {candidate} from the {vacancy}</source>
-          <target>{employee} rejected {candidate} from the {vacancy}</target>
+          <target>{employee} {candidate} را از {vacancy} رد کرد</target>
         </segment>
       </unit>
       <unit id="employee_removed_candidate_from_vacancy">
         <segment>
           <source>{employee} removed {candidate} from the {vacancy}</source>
-          <target>{employee} removed {candidate} from the {vacancy}</target>
+          <target>{employee} {candidate} را از {vacancy} حذف کرد</target>
         </segment>
       </unit>
       <unit id="employee_schedule_interview_with_interviewers">
         <segment>
           <source>{employee} scheduled {interview} on {interviewDate} with {interviewers} for {vacancy}</source>
-          <target>{employee} scheduled {interview} on {interviewDate} with {interviewers} for {vacancy}</target>
+          <target>{employee} {interview} را در تاریخ {interviewDate} با {interviewers} برای {vacancy} زمان‌بندی کرد</target>
         </segment>
       </unit>
     </group>
@@ -5777,13 +5777,13 @@
       <unit id="activate">
         <segment>
           <source>Activate</source>
-          <target>Activate</target>
+          <target>فعال‌سازی</target>
         </segment>
       </unit>
       <unit id="activated">
         <segment>
           <source>Activated</source>
-          <target>Activated</target>
+          <target>فعال شد</target>
         </segment>
       </unit>
       <unit id="add_key_performance_indicator">
@@ -5825,7 +5825,7 @@
       <unit id="added_on">
         <segment>
           <source>Added On</source>
-          <target>Added On</target>
+          <target>افزوده‌شده در</target>
         </segment>
       </unit>
       <unit id="cannot_activate_review_without_job_title_subdivision">
@@ -5849,25 +5849,25 @@
       <unit id="cannot_add_a_past_employee_as_a_reviewer">
         <segment>
           <source>Cannot add a past employee as a reviewer</source>
-          <target>Cannot add a past employee as a reviewer</target>
+          <target>Cannot add یک past employee به‌عنوان یک reviewer</target>
         </segment>
       </unit>
       <unit id="cannot_add_a_past_employee_as_reviewer">
         <segment>
           <source>Cannot add a past employee as reviewer</source>
-          <target>Cannot add a past employee as reviewer</target>
+          <target>Cannot add یک past employee به‌عنوان reviewer</target>
         </segment>
       </unit>
       <unit id="complete">
         <segment>
           <source>Complete</source>
-          <target>Complete</target>
+          <target>تکمیل</target>
         </segment>
       </unit>
       <unit id="completed">
         <segment>
           <source>Completed</source>
-          <target>Completed</target>
+          <target>تکمیل شد</target>
         </segment>
       </unit>
       <unit id="confirm_review_submission">
@@ -5897,7 +5897,7 @@
       <unit id="due_date_should_be_after_review_period_end_date">
         <segment>
           <source>Due date should be after period end date</source>
-          <target>Due date should be after period end date</target>
+          <target>تاریخ سررسید باید بعد از تاریخ پایان دوره باشد</target>
         </segment>
       </unit>
       <unit id="edit_key_performance_indicator">
@@ -5945,25 +5945,25 @@
       <unit id="evaluate">
         <segment>
           <source>Evaluate</source>
-          <target>Evaluate</target>
+          <target>ارزیابی</target>
         </segment>
       </unit>
       <unit id="evaluation_activated">
         <segment>
           <source>Evaluation Activated</source>
-          <target>Evaluation Activated</target>
+          <target>ارزیابی فعال شد</target>
         </segment>
       </unit>
       <unit id="evaluation_completed">
         <segment>
           <source>Evaluation Completed</source>
-          <target>Evaluation Completed</target>
+          <target>ارزیابی تکمیل شد</target>
         </segment>
       </unit>
       <unit id="evaluation_in_progress">
         <segment>
           <source>Evaluation In Progress</source>
-          <target>Evaluation In Progress</target>
+          <target>ارزیابی در حال انجام</target>
         </segment>
       </unit>
       <unit id="final_comments">
@@ -5975,7 +5975,7 @@
       <unit id="final_rating">
         <segment>
           <source>Final Rating</source>
-          <target>Final Rating</target>
+          <target>امتیاز نهایی</target>
         </segment>
       </unit>
       <unit id="general_comment">
@@ -5987,25 +5987,25 @@
       <unit id="in_progress">
         <segment>
           <source>In Progress</source>
-          <target>In Progress</target>
+          <target>در حال انجام</target>
         </segment>
       </unit>
       <unit id="inactive">
         <segment>
           <source>Inactive</source>
-          <target>Inactive</target>
+          <target>غیرفعال</target>
         </segment>
       </unit>
       <unit id="is_default">
         <segment>
           <source>Is Default</source>
-          <target>Is Default</target>
+          <target>است Default</target>
         </segment>
       </unit>
       <unit id="kpi">
         <segment>
           <source>KPI</source>
-          <target>KPI</target>
+          <target>شاخص کلیدی عملکرد</target>
         </segment>
       </unit>
       <unit id="key_performance_indicator">
@@ -6023,13 +6023,13 @@
       <unit id="log">
         <segment>
           <source>Log</source>
-          <target>Log</target>
+          <target>لاگ</target>
         </segment>
       </unit>
       <unit id="make_default_scale">
         <segment>
           <source>Make Default Scale</source>
-          <target>Make Default Scale</target>
+          <target>قرار دادن به‌عنوان مقیاس پیش‌فرض</target>
         </segment>
       </unit>
       <unit id="manage_performance_reviews">
@@ -6041,49 +6041,49 @@
       <unit id="max">
         <segment>
           <source>Max</source>
-          <target>Max</target>
+          <target>حداکثر</target>
         </segment>
       </unit>
       <unit id="max_rate">
         <segment>
           <source>Max Rate</source>
-          <target>Max Rate</target>
+          <target>نرخ حداکثر</target>
         </segment>
       </unit>
       <unit id="maximum_rating">
         <segment>
           <source>Maximum Rating</source>
-          <target>Maximum Rating</target>
+          <target>حداکثر امتیاز</target>
         </segment>
       </unit>
       <unit id="maximum_rating_should_be_greater_than_minimum_rating">
         <segment>
           <source>Maximum Rating should be greater than Minimum Rating</source>
-          <target>Maximum Rating should be greater than Minimum Rating</target>
+          <target>حداکثر امتیاز باید بیشتر از حداقل امتیاز باشد</target>
         </segment>
       </unit>
       <unit id="min">
         <segment>
           <source>Min</source>
-          <target>Min</target>
+          <target>حداقل</target>
         </segment>
       </unit>
       <unit id="min_rate">
         <segment>
           <source>Min Rate</source>
-          <target>Min Rate</target>
+          <target>نرخ حداقل</target>
         </segment>
       </unit>
       <unit id="minimum_rating">
         <segment>
           <source>Minimum Rating</source>
-          <target>Minimum Rating</target>
+          <target>حداقل امتیاز</target>
         </segment>
       </unit>
       <unit id="minimum_rating_should_be_less_than_maximum_rating">
         <segment>
           <source>Minimum Rating should be less than Maximum Rating</source>
-          <target>Minimum Rating should be less than Maximum Rating</target>
+          <target>حداقل امتیاز باید کمتر از حداکثر امتیاز باشد</target>
         </segment>
       </unit>
       <unit id="modified_date">
@@ -6095,7 +6095,7 @@
       <unit id="modified_on">
         <segment>
           <source>Modified On</source>
-          <target>Modified On</target>
+          <target>ویرایش‌شده در</target>
         </segment>
       </unit>
       <unit id="my_performance_trackers">
@@ -6107,7 +6107,7 @@
       <unit id="negative">
         <segment>
           <source>Negative</source>
-          <target>Negative</target>
+          <target>منفی</target>
         </segment>
       </unit>
       <unit id="performance_review">
@@ -6125,25 +6125,25 @@
       <unit id="positive">
         <segment>
           <source>Positive</source>
-          <target>Positive</target>
+          <target>مثبت</target>
         </segment>
       </unit>
       <unit id="rating">
         <segment>
           <source>Rating</source>
-          <target>Rating</target>
+          <target>امتیاز</target>
         </segment>
       </unit>
       <unit id="rating_should_be_greater_than_or_equal_to_minValue">
         <segment>
           <source>Rating should be greater than or equal to {minValue}</source>
-          <target>Rating should be greater than or equal to {minValue}</target>
+          <target>Rating should be greater than or equal به {minValue}</target>
         </segment>
       </unit>
       <unit id="rating_should_be_less_than_or_equal_to_maxValue">
         <segment>
           <source>Rating should be less than or equal to {maxValue}</source>
-          <target>Rating should be less than or equal to {maxValue}</target>
+          <target>Rating should be less than or equal به {maxValue}</target>
         </segment>
       </unit>
       <unit id="review_due_date">
@@ -6155,13 +6155,13 @@
       <unit id="review_finalization">
         <segment>
           <source>Review Finalization</source>
-          <target>Review Finalization</target>
+          <target>نهایی‌سازی ارزیابی</target>
         </segment>
       </unit>
       <unit id="review_period">
         <segment>
           <source>Review Period</source>
-          <target>Review Period</target>
+          <target>دوره ارزیابی</target>
         </segment>
       </unit>
       <unit id="review_period_end_date">
@@ -6185,37 +6185,37 @@
       <unit id="review_summary">
         <segment>
           <source>Review Summary</source>
-          <target>Review Summary</target>
+          <target>خلاصه ارزیابی</target>
         </segment>
       </unit>
       <unit id="review_period_end_date_should_be_after_start_date">
         <segment>
           <source>Review period end date should be after period start date</source>
-          <target>Review period end date should be after period start date</target>
+          <target>تاریخ پایان دوره ارزیابی باید بعد از تاریخ شروع دوره باشد</target>
         </segment>
       </unit>
       <unit id="review_period_start_date_should_be_before_end_date">
         <segment>
           <source>Review period start date should be before period end date</source>
-          <target>Review period start date should be before period end date</target>
+          <target>تاریخ شروع دوره ارزیابی باید قبل از تاریخ پایان دوره باشد</target>
         </segment>
       </unit>
       <unit id="reviewer">
         <segment>
           <source>Reviewer</source>
-          <target>Reviewer</target>
+          <target>ارزیاب</target>
         </segment>
       </unit>
       <unit id="reviewers">
         <segment>
           <source>Reviewers</source>
-          <target>Reviewers</target>
+          <target>ارزیابان</target>
         </segment>
       </unit>
       <unit id="selected_supervisor_for_reviewer_is_invalid">
         <segment>
           <source>Selected supervisor for reviewer is invalid</source>
-          <target>Selected supervisor for reviewer is invalid</target>
+          <target>Selected supervisor for reviewer است invalid</target>
         </segment>
       </unit>
       <unit id="self_evaluation_status">
@@ -6227,7 +6227,7 @@
       <unit id="self_evaluation_by">
         <segment>
           <source>Self Evaluation by</source>
-          <target>Self Evaluation by</target>
+          <target>Self Evaluation از</target>
         </segment>
       </unit>
       <unit id="supervisor_evaluation_by">
@@ -6245,19 +6245,19 @@
       <unit id="confirm_review_submission_message">
         <segment>
           <source>The review will be made read-only after completion. This action cannot be undone. Are you sure you want to continue?</source>
-          <target>The review will be made read-only after completion. This action cannot be undone. Are you sure you want to continue?</target>
+          <target>The review will be made read-only after completion. این عمل cannot be undone. Are you sure you want به continue?</target>
         </segment>
       </unit>
       <unit id="tracker">
         <segment>
           <source>Tracker</source>
-          <target>Tracker</target>
+          <target>پیگیری</target>
         </segment>
       </unit>
       <unit id="tracker_logs">
         <segment>
           <source>Tracker Logs</source>
-          <target>Tracker Logs</target>
+          <target>لاگ‌های پیگیری</target>
         </segment>
       </unit>
       <unit id="tracker_name">
@@ -6277,7 +6277,7 @@
       <unit id="configurations">
         <segment>
           <source>Configurations</source>
-          <target>Configurations</target>
+          <target>تنظیمات</target>
         </segment>
       </unit>
       <unit id="employee_distribution_by_location">
@@ -6331,25 +6331,25 @@
       <unit id="not_available">
         <segment>
           <source>Not Available</source>
-          <target>Not Available</target>
+          <target>در دسترس نیست</target>
         </segment>
       </unit>
       <unit id="only_show_accessible_employees_on_leave_for_other_users">
         <segment>
           <source>Only show accessible employees on leave for other users</source>
-          <target>Only show accessible employees on leave for other users</target>
+          <target>Only show accessible employees on leave for other کاربران</target>
         </segment>
       </unit>
       <unit id="quick_launch">
         <segment>
           <source>Quick Launch</source>
-          <target>Quick Launch</target>
+          <target>اجرای سریع</target>
         </segment>
       </unit>
       <unit id="this_week">
         <segment>
           <source>This Week</source>
-          <target>This Week</target>
+          <target>این Week</target>
         </segment>
       </unit>
       <unit id="time_at_work">
@@ -6361,7 +6361,7 @@
       <unit id="unassigned">
         <segment>
           <source>Unassigned</source>
-          <target>Unassigned</target>
+          <target>تخصیص‌نیافته</target>
         </segment>
       </unit>
       <unit id="state_today_at_time_timezone_offset">
@@ -6373,37 +6373,37 @@
       <unit id="state_date_at_time_timezone_offset">
         <segment>
           <source>{lastState}: {date} at {time} (GMT {timezoneOffset})</source>
-          <target>{lastState}: {date} at {time} (GMT {timezoneOffset})</target>
+          <target>{lastState}: {date} در {time} (GMT {timezoneOffset})</target>
         </segment>
       </unit>
       <unit id="n_pending_candidate_interview">
         <segment>
           <source>{pendingActionsCount,plural, =0{No Records Found} one{(1) Candidate to Interview} other{ (#) Candidates to Interview}}</source>
-          <target>{pendingActionsCount,plural, =0{No سوابق Found} one{(1) Candidate to Interview} other{ (#) متقاضیان to Interview}}</target>
+          <target>{pendingActionsCount,plural, =0{هیچ موردی یافت نشد} one{(1) متقاضی برای مصاحبه} other{ (#) متقاضی برای مصاحبه}}</target>
         </segment>
       </unit>
       <unit id="n_pending_leave_request">
         <segment>
           <source>{pendingActionsCount,plural, =0{No Records Found} one{(1) Leave Request to Approve} other{ (#) Leave Requests to Approve}}</source>
-          <target>{pendingActionsCount,plural, =0{No سوابق Found} one{(1) مرخصی Request to Approve} other{ (#) مرخصی Requests to Approve}}</target>
+          <target>{pendingActionsCount,plural, =0{هیچ موردی یافت نشد} one{(1) درخواست مرخصی برای تأیید} other{ (#) درخواست مرخصی برای تأیید}}</target>
         </segment>
       </unit>
       <unit id="n_pending_self_review">
         <segment>
           <source>{pendingActionsCount,plural, =0{No Records Found} one{(1) Pending Self Review} other{ (#) Pending Self Reviews}}</source>
-          <target>{pendingActionsCount,plural, =0{No سوابق Found} one{(1) Pending Self Review} other{ (#) Pending Self Reviews}}</target>
+          <target>{pendingActionsCount,plural, =0{هیچ موردی یافت نشد} one{(1) ارزیابی شخصی در انتظار} other{ (#) ارزیابی شخصی در انتظارs}}</target>
         </segment>
       </unit>
       <unit id="n_pending_performance_evaluate">
         <segment>
           <source>{pendingActionsCount,plural, =0{No Records Found} one{(1) Performance Review to Evaluate} other{ (#) Performance Reviews to Evaluate}}</source>
-          <target>{pendingActionsCount,plural, =0{No سوابق Found} one{(1) عملکرد Review to Evaluate} other{ (#) عملکرد Reviews to Evaluate}}</target>
+          <target>{pendingActionsCount,plural, =0{هیچ موردی یافت نشد} one{(1) ارزیابی عملکرد برای ارزیابی} other{ (#) ارزیابی‌های عملکرد برای ارزیابی}}</target>
         </segment>
       </unit>
       <unit id="n_pending_time_sheet">
         <segment>
           <source>{pendingActionsCount,plural, =0{No Records Found} one{(1) Timesheet to Approve} other{ (#) Timesheets to Approve}}</source>
-          <target>{pendingActionsCount,plural, =0{No سوابق Found} one{(1) Timesheet to Approve} other{ (#) برگه‌های زمانی to Approve}}</target>
+          <target>{pendingActionsCount,plural, =0{هیچ موردی یافت نشد} one{(1) برگه زمانی برای تأیید} other{ (#) برگه‌های زمانی برای تأیید}}</target>
         </segment>
       </unit>
     </group>
@@ -6423,7 +6423,7 @@
       <unit id="purge">
         <segment>
           <source>Purge</source>
-          <target>Purge</target>
+          <target>پاک‌سازی</target>
         </segment>
       </unit>
       <unit id="purge_all">
@@ -6453,7 +6453,7 @@
       <unit id="purge_employee_records">
         <segment>
           <source>Purge Employee Records</source>
-          <target>Purge کارمند سوابق</target>
+          <target>پاک‌سازی سوابق کارمند</target>
         </segment>
       </unit>
       <unit id="selected_employee">
@@ -6465,7 +6465,7 @@
       <unit id="purge_success">
         <segment>
           <source>Successfully Purged</source>
-          <target>Successfully Purged</target>
+          <target>با موفقیت پاک‌سازی شد</target>
         </segment>
       </unit>
       <unit id="gdpr_note">
@@ -6477,19 +6477,19 @@
       <unit id="yes_purge">
         <segment>
           <source>Yes, Purge</source>
-          <target>Yes, Purge</target>
+          <target>بله، پاک‌سازی</target>
         </segment>
       </unit>
       <unit id="purge_candidates_warning">
         <segment>
           <source>You are about to purge selected candidates permanently. Are you sure you want to continue? This operation cannot be undone</source>
-          <target>You are about to purge selected candidates permanently. Are you sure you want to continue? This operation cannot be undone</target>
+          <target>You are about به purge selected candidates permanently. Are you sure you want به continue? این operation cannot be undone</target>
         </segment>
       </unit>
       <unit id="purge_employee_warning">
         <segment>
           <source>You are about to purge the employee permanently. Are you sure you want to continue? This operation cannot be undone</source>
-          <target>You are about to purge the employee permanently. Are you sure you want to continue? This operation cannot be undone</target>
+          <target>You are about به purge the employee permanently. Are you sure you want به continue? این operation cannot be undone</target>
         </segment>
       </unit>
     </group>
@@ -6521,31 +6521,31 @@
       <unit id="like">
         <segment>
           <source>Like</source>
-          <target>Like</target>
+          <target>پسندیدن</target>
         </segment>
       </unit>
       <unit id="file_size_validation_message">
         <segment>
           <source>Maximum allowed file size is 2MB</source>
-          <target>Maximum allowed file size is 2MB</target>
+          <target>Maximum allowed file size است 2MB</target>
         </segment>
       </unit>
       <unit id="most_commented_posts">
         <segment>
           <source>Most Commented Posts</source>
-          <target>Most Commented Posts</target>
+          <target>پست‌های با بیشترین نظر</target>
         </segment>
       </unit>
       <unit id="most_liked_posts">
         <segment>
           <source>Most Liked Posts</source>
-          <target>Most Liked Posts</target>
+          <target>پست‌های با بیشترین پسند</target>
         </segment>
       </unit>
       <unit id="most_recent_posts">
         <segment>
           <source>Most Recent Posts</source>
-          <target>Most Recent Posts</target>
+          <target>جدیدترین پست‌ها</target>
         </segment>
       </unit>
       <unit id="no_posts_available">
@@ -6557,25 +6557,25 @@
       <unit id="file_type_validation_message">
         <segment>
           <source>Only 'gif', 'png', 'jpg', 'jpeg' type images are allowed!</source>
-          <target>Only 'gif', 'png', 'jpg', 'jpeg' type images are allowed!</target>
+          <target>فقط تصاویر با نوع 'gif'، 'png'، 'jpg'، 'jpeg' مجاز هستند!</target>
         </segment>
       </unit>
       <unit id="paste_video_url">
         <segment>
           <source>Paste Video URL</source>
-          <target>Paste Video URL</target>
+          <target>Paste Video نشانی</target>
         </segment>
       </unit>
       <unit id="post">
         <segment>
           <source>Post</source>
-          <target>Post</target>
+          <target>پست</target>
         </segment>
       </unit>
       <unit id="press_esc_to">
         <segment>
           <source>Press Esc to</source>
-          <target>Press Esc to</target>
+          <target>Press Esc به</target>
         </segment>
       </unit>
       <unit id="read_more">
@@ -6587,84 +6587,84 @@
       <unit id="share">
         <segment>
           <source>Share</source>
-          <target>Share</target>
+          <target>اشتراک‌گذاری</target>
         </segment>
       </unit>
       <unit id="share_photos">
         <segment>
           <source>Share Photos</source>
-          <target>Share Photos</target>
+          <target>اشتراک‌گذاری عکس</target>
         </segment>
       </unit>
       <unit id="share_post">
         <segment>
           <source>Share Post</source>
-          <target>Share Post</target>
+          <target>اشتراک‌گذاری پست</target>
         </segment>
       </unit>
       <unit id="share_video">
         <segment>
           <source>Share Video</source>
-          <target>Share Video</target>
+          <target>اشتراک‌گذاری ویدئو</target>
         </segment>
       </unit>
       <unit id="post_delete_confirmation_message">
         <segment>
           <source>The selected item will be permanently deleted. Are you sure you want to continue?</source>
-          <target>The selected item will be permanently deleted. Are you sure you want to continue?</target>
+          <target>The selected item will be permanently deleted. Are you sure you want به continue?</target>
         </segment>
       </unit>
       <unit id="upcoming_anniversaries">
         <segment>
           <source>Upcoming Anniversaries</source>
-          <target>Upcoming Anniversaries</target>
+          <target>سالگردهای پیشِ‌رو</target>
         </segment>
       </unit>
       <unit id="video_url">
         <segment>
           <source>Video URL</source>
-          <target>Video URL</target>
+          <target>Video نشانی</target>
         </segment>
       </unit>
       <unit id="post_placeholder">
         <segment>
           <source>What's on your mind?</source>
-          <target>What's on your mind?</target>
+          <target>به چه چیزی فکر می‌کنید؟</target>
         </segment>
       </unit>
       <unit id="write_your_comment">
         <segment>
           <source>Write your comment...</source>
-          <target>Write your comment...</target>
+          <target>نظر خود را بنویسید...</target>
         </segment>
       </unit>
       <unit id="n_comment">
         <segment>
           <source>{commentCount,plural, =0{0 Comments} one{1 Comment} other{# Comments}}</source>
-          <target>{commentCount,plural, =0{0 Comments} one{1 Comment} other{# Comments}}</target>
+          <target>{commentCount, plural, =0{۰ نظر} one{۱ نظر} other{# نظر}}</target>
         </segment>
       </unit>
       <unit id="n_like">
         <segment>
           <source>{likesCount,plural, =0{0 Likes} one{1 Like} other{# Likes}}</source>
-          <target>{likesCount,plural, =0{0 Likes} one{1 Like} other{# Likes}}</target>
+          <target>{likesCount, plural, =0{۰ پسند} one{۱ پسند} other{# پسند}}</target>
         </segment>
       </unit>
       <unit id="n_share">
         <segment>
           <source>{shareCount,plural, =0{0 Shares} one{1 Share} other{# Shares}}</source>
-          <target>{shareCount,plural, =0{0 Shares} one{1 Share} other{# Shares}}</target>
+          <target>{shareCount, plural, =0{۰ اشتراک‌گذاری} one{۱ اشتراک‌گذاری} other{# اشتراک‌گذاری}}</target>
         </segment>
       </unit>
       <unit id="n_year">
         <segment>
           <source>{yearsCount,plural, =0{} one{Year} other{Years}}</source>
-          <target>{yearsCount,plural, =0{} one{Year} other{Years}}</target>
+          <target>{yearsCount, plural, =0{} one{سال} other{سال}}</target>
         </segment>
       </unit>
     </group>
-    <group id="marketplace" />
-    <group id="mobile" />
+    <group id="marketplace"/>
+    <group id="mobile"/>
     <group id="help">
       <unit id="customer_support">
         <segment>
@@ -6675,31 +6675,31 @@
       <unit id="getting_started_with_orangehrm">
         <segment>
           <source>Getting Started with OrangeHRM</source>
-          <target>Getting Started with OrangeHRM</target>
+          <target>شروع به کار با OrangeHRM</target>
         </segment>
       </unit>
       <unit id="getting_started_with_orangehrm_message_1">
         <segment>
           <source>Learning how to use a new application can be challenging. At OrangeHRM, we are committed to providing you with the necessary knowledge and skills required to fully utilize the application thereby allowing you to quickly and efficiently manage your HR processes.</source>
-          <target>Learning how to use a new application can be challenging. At OrangeHRM, we are committed to providing you with the necessary knowledge and skills required to fully utilize the application thereby allowing you to quickly and efficiently manage your HR processes.</target>
+          <target>Learning how به استفاده یک new application can be challenging. At OrangeHRM, we are committed به providing you with the necessary knowledge and skills required به fully utilize the application thereby allowing you به quickly and efficiently manage your HR processes.</target>
         </segment>
       </unit>
       <unit id="contact_us_on_message">
         <segment>
           <source>Should you experience any issues, please do not hesitate to contact us on</source>
-          <target>Should you experience any issues, please do not hesitate to contact us on</target>
+          <target>Should you experience any issues, please do not hesitate به contact us on</target>
         </segment>
       </unit>
       <unit id="getting_started_with_orangehrm_message_2">
         <segment>
           <source>The following information repositories are available to help you understand the application:</source>
-          <target>The following information repositories are available to help you understand the application:</target>
+          <target>The following information repositories are available به help you understand the application:</target>
         </segment>
       </unit>
       <unit id="we_will_be_delighted_to_help">
         <segment>
           <source>We will be delighted to help.</source>
-          <target>We will be delighted to help.</target>
+          <target>We will be delighted به help.</target>
         </segment>
       </unit>
     </group>
@@ -6749,7 +6749,7 @@
       <unit id="in">
         <segment>
           <source>In</source>
-          <target>In</target>
+          <target>ورود</target>
         </segment>
       </unit>
       <unit id="my_attendance_records">
@@ -6761,13 +6761,13 @@
       <unit id="not_punched_in">
         <segment>
           <source>Not Punched In</source>
-          <target>Not Punched In</target>
+          <target>ثبت ورود انجام نشده</target>
         </segment>
       </unit>
       <unit id="out">
         <segment>
           <source>Out</source>
-          <target>Out</target>
+          <target>خروج</target>
         </segment>
       </unit>
       <unit id="overlapping_records_found">
@@ -6779,7 +6779,7 @@
       <unit id="punch_in">
         <segment>
           <source>Punch In</source>
-          <target>Punch In</target>
+          <target>ثبت ورود</target>
         </segment>
       </unit>
       <unit id="punch_in_note">
@@ -6791,7 +6791,7 @@
       <unit id="punch_out">
         <segment>
           <source>Punch Out</source>
-          <target>Punch Out</target>
+          <target>ثبت خروج</target>
         </segment>
       </unit>
       <unit id="punch_out_note">
@@ -6803,7 +6803,7 @@
       <unit id="punched_in">
         <segment>
           <source>Punched In</source>
-          <target>Punched In</target>
+          <target>ورود ثبت شد</target>
         </segment>
       </unit>
       <unit id="punched_in_note">
@@ -6815,13 +6815,13 @@
       <unit id="punched_out">
         <segment>
           <source>Punched Out</source>
-          <target>Punched Out</target>
+          <target>خروج ثبت شد</target>
         </segment>
       </unit>
       <unit id="punched_in_time">
         <segment>
           <source>Punched in time</source>
-          <target>Punched in time</target>
+          <target>زمان ثبت ورود</target>
         </segment>
       </unit>
       <unit id="supervisor_can_add_edit_delete_attendance_records_of_subordinates">
@@ -6833,7 +6833,7 @@
       <unit id="timezone">
         <segment>
           <source>Timezone</source>
-          <target>Timezone</target>
+          <target>منطقه زمانی</target>
         </segment>
       </unit>
       <unit id="hh_mm">
@@ -6847,37 +6847,37 @@
       <unit id="reset_password_link_via_email">
         <segment>
           <source>A reset password link has been sent to you via email.</source>
-          <target>A reset password link has been sent to you via email.</target>
+          <target>یک reset password link has been sent به you via email.</target>
         </segment>
       </unit>
       <unit id="access_and_manage_your_data">
         <segment>
           <source>Access and manage your data</source>
-          <target>Access and manage your data</target>
+          <target>به داده‌های شما دسترسی داشته و آن‌ها را مدیریت کند</target>
         </segment>
       </unit>
       <unit id="account_disabled">
         <segment>
           <source>Account disabled</source>
-          <target>Account disabled</target>
+          <target>حساب disabled</target>
         </segment>
       </unit>
       <unit id="admin_access">
         <segment>
           <source>Administrator Access</source>
-          <target>Administrator Access</target>
+          <target>دسترسی مدیر</target>
         </segment>
       </unit>
       <unit id="allow_access">
         <segment>
           <source>Allow Access</source>
-          <target>Allow Access</target>
+          <target>اجازه دسترسی</target>
         </segment>
       </unit>
       <unit id="csrf_token_validation_failed">
         <segment>
           <source>CSRF token validation failed</source>
-          <target>CSRF token validation failed</target>
+          <target>اعتبارسنجی توکن CSRF ناموفق بود</target>
         </segment>
       </unit>
       <unit id="change_weak_password">
@@ -6895,13 +6895,13 @@
       <unit id="deny">
         <segment>
           <source>Deny</source>
-          <target>Deny</target>
+          <target>عدم اجازه</target>
         </segment>
       </unit>
       <unit id="do_you_want_to_allow_access">
         <segment>
           <source>Do you want to allow access?</source>
-          <target>Do you want to allow access?</target>
+          <target>Do you want به allow access?</target>
         </segment>
       </unit>
       <unit id="employee_is_terminated">
@@ -6925,7 +6925,7 @@
       <unit id="email_not_receive_note">
         <segment>
           <source>If the email does not arrive, please contact your OrangeHRM Administrator.</source>
-          <target>If the email does not arrive, please contact your OrangeHRM Administrator.</target>
+          <target>اگر ایمیل نرسید، لطفاً با مدیر OrangeHRM خود تماس بگیرید.</target>
         </segment>
       </unit>
       <unit id="invalid_credentials">
@@ -6943,7 +6943,7 @@
       <unit id="login">
         <segment>
           <source>Login</source>
-          <target>Login</target>
+          <target>ورود</target>
         </segment>
       </unit>
       <unit id="mobile_client_disabled_error">
@@ -6961,13 +6961,13 @@
       <unit id="perform_actions_on_your_behalf">
         <segment>
           <source>Perform actions on your behalf</source>
-          <target>Perform actions on your behalf</target>
+          <target>به‌جای شما عملیات انجام دهد</target>
         </segment>
       </unit>
       <unit id="username_identify_reset_note">
         <segment>
           <source>Please enter your username to identify your account to reset your password</source>
-          <target>Please enter your username to identify your account to reset your password</target>
+          <target>Please enter your نام کاربری به identify your حساب به reset your password</target>
         </segment>
       </unit>
       <unit id="reset_password">
@@ -6991,115 +6991,115 @@
       <unit id="configured_receive_email_notification_note">
         <segment>
           <source>The OrangeHRM  system is not configured to receive email notifications. Please contact your OrangeHRM administrator to reset your password</source>
-          <target>The OrangeHRM system is not configured to receive email notifications. Please contact your OrangeHRM administrator to reset your password</target>
+          <target>The OrangeHRM  system است not configured به receive email notifications. Please contact your OrangeHRM administrator به reset your password</target>
         </segment>
       </unit>
       <unit id="reset_password_token_expired_note">
         <segment>
           <source>The user account cannot be found or the reset password token has expired</source>
-          <target>The user account cannot be found or the reset password token has expired</target>
+          <target>The user حساب cannot be found or the reset password token has expired</target>
         </segment>
       </unit>
       <unit id="this_request_is_invalid">
         <segment>
           <source>This request is invalid</source>
-          <target>This request is invalid</target>
+          <target>این request است invalid</target>
         </segment>
       </unit>
       <unit id="follow_link_to_select_password">
         <segment>
           <source>You can follow that link and select a new password.</source>
-          <target>You can follow that link and select a new password.</target>
+          <target>You can follow that link and select یک new password.</target>
         </segment>
       </unit>
       <unit id="admin_access_note">
         <segment>
           <source>You have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below</source>
-          <target>You have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below</target>
+          <target>You have requested به access یک critical Administrator function in OrangeHRM and are required به validate your credentials below</target>
         </segment>
       </unit>
       <unit id="password_not_strong">
         <segment>
           <source>Your current password is weak. Please choose a stronger password.</source>
-          <target>Your current password is weak. Please choose a stronger password.</target>
+          <target>Your current password است weak. Please choose یک stronger password.</target>
         </segment>
       </unit>
       <unit id="password_could_be_guessable">
         <segment>
           <source>Your password meets the minimum requirements, but it could be guessable</source>
-          <target>Your password meets the minimum requirements, but it could be guessable</target>
+          <target>گذرواژهٔ شما حداقل الزامات را برآورده می‌کند، اما ممکن است قابل حدس باشد</target>
         </segment>
       </unit>
       <unit id="password_spaces_not_allowed">
         <segment>
           <source>Your password should not contain spaces</source>
-          <target>Your password should not contain spaces</target>
+          <target>گذرواژهٔ شما نباید شامل فاصله باشد</target>
         </segment>
       </unit>
       <unit id="password">
         <segment>
           <source>password</source>
-          <target>password</target>
+          <target>گذرواژه</target>
         </segment>
       </unit>
       <unit id="back_to_login">
         <segment>
           <source>to go back to login page</source>
-          <target>to go back to login page</target>
+          <target>به go back به login page</target>
         </segment>
       </unit>
       <unit id="request_new_password_token">
         <segment>
           <source>to request a new password reset token</source>
-          <target>to request a new password reset token</target>
+          <target>به request یک new password reset token</target>
         </segment>
       </unit>
       <unit id="username">
         <segment>
           <source>username</source>
-          <target>username</target>
+          <target>نام کاربری</target>
         </segment>
       </unit>
       <unit id="client_name_would_like_to">
         <segment>
           <source>{clientName} would like to</source>
-          <target>{clientName} would like to</target>
+          <target>{clientName} would like به</target>
         </segment>
       </unit>
       <unit id="password_min_length">
         <segment>
           <source>{count,plural, one{Should have at least 1 character} other{Should have at least # characters}}</source>
-          <target>{count,plural, one{Should have at least 1 character} other{Should have at least # characters}}</target>
+          <target>{count, plural, one{باید دست‌کم 1 نویسه داشته باشد} other{باید دست‌کم # نویسه داشته باشد}}</target>
         </segment>
       </unit>
       <unit id="password_max_length">
         <segment>
           <source>{count,plural, one{Should not exceed 1 character} other{Should not exceed # characters}}</source>
-          <target>{count,plural, one{Should not exceed 1 character} other{Should not exceed # characters}}</target>
+          <target>{count, plural, one{نباید از 1 نویسه بیشتر باشد} other{نباید از # نویسه بیشتر باشد}}</target>
         </segment>
       </unit>
       <unit id="password_n_lowercase_letters">
         <segment>
           <source>{count,plural, one{Your password must contain minimum 1 lower-case letter} other{Your password must contain minimum # lower-case letters}}</source>
-          <target>{count,plural, one{Your password must contain minimum 1 lower-case letter} other{Your password must contain minimum # lower-case letters}}</target>
+          <target>{count, plural, one{گذرواژه باید حداقل 1 حرف کوچک داشته باشد} other{گذرواژه باید حداقل # حرف کوچک داشته باشد}}</target>
         </segment>
       </unit>
       <unit id="password_n_numbers">
         <segment>
           <source>{count,plural, one{Your password must contain minimum 1 number} other{Your password must contain minimum # numbers}}</source>
-          <target>{count,plural, one{Your password must contain minimum 1 number} other{Your password must contain minimum # numbers}}</target>
+          <target>{count, plural, one{گذرواژه باید حداقل 1 عدد داشته باشد} other{گذرواژه باید حداقل # عدد داشته باشد}}</target>
         </segment>
       </unit>
       <unit id="password_n_special_characters">
         <segment>
           <source>{count,plural, one{Your password must contain minimum 1 special character} other{Your password must contain minimum # special characters}}</source>
-          <target>{count,plural, one{Your password must contain minimum 1 special character} other{Your password must contain minimum # special characters}}</target>
+          <target>{count, plural, one{گذرواژه باید حداقل 1 نویسهٔ ویژه داشته باشد} other{گذرواژه باید حداقل # نویسهٔ ویژه داشته باشد}}</target>
         </segment>
       </unit>
       <unit id="password_n_uppercase_letters">
         <segment>
           <source>{count,plural, one{Your password must contain minimum 1 upper-case letter} other{Your password must contain minimum # upper-case letters}}</source>
-          <target>{count,plural, one{Your password must contain minimum 1 upper-case letter} other{Your password must contain minimum # upper-case letters}}</target>
+          <target>{count, plural, one{گذرواژه باید حداقل 1 حرف بزرگ داشته باشد} other{گذرواژه باید حداقل # حرف بزرگ داشته باشد}}</target>
         </segment>
       </unit>
     </group>
@@ -7125,13 +7125,13 @@
       <unit id="assign_claim">
         <segment>
           <source>Assign Claim</source>
-          <target>Assign Claim</target>
+          <target>تخصیص Claim</target>
         </segment>
       </unit>
       <unit id="claim">
         <segment>
           <source>Claim</source>
-          <target>Claim</target>
+          <target>مطالبه</target>
         </segment>
       </unit>
       <unit id="claim_module">
@@ -7143,13 +7143,13 @@
       <unit id="create">
         <segment>
           <source>Create</source>
-          <target>Create</target>
+          <target>ایجاد</target>
         </segment>
       </unit>
       <unit id="create_claim_request">
         <segment>
           <source>Create Claim Request</source>
-          <target>Create Claim Request</target>
+          <target>ایجاد درخواست مطالبه</target>
         </segment>
       </unit>
       <unit id="edit_event">
@@ -7179,7 +7179,7 @@
       <unit id="event">
         <segment>
           <source>Event</source>
-          <target>Event</target>
+          <target>رویداد</target>
         </segment>
       </unit>
       <unit id="event_name">
@@ -7191,7 +7191,7 @@
       <unit id="events">
         <segment>
           <source>Events</source>
-          <target>Events</target>
+          <target>رویدادها</target>
         </segment>
       </unit>
       <unit id="expense_type">
@@ -7203,19 +7203,19 @@
       <unit id="expense_types">
         <segment>
           <source>Expense Types</source>
-          <target>Expense Types</target>
+          <target>انواع هزینه</target>
         </segment>
       </unit>
       <unit id="expenses">
         <segment>
           <source>Expenses</source>
-          <target>Expenses</target>
+          <target>هزینه‌ها</target>
         </segment>
       </unit>
       <unit id="initiated">
         <segment>
           <source>Initiated</source>
-          <target>Initiated</target>
+          <target>آغاز شد</target>
         </segment>
       </unit>
       <unit id="my_claims">
@@ -7227,13 +7227,13 @@
       <unit id="paid">
         <segment>
           <source>Paid</source>
-          <target>Paid</target>
+          <target>پرداخت شد</target>
         </segment>
       </unit>
       <unit id="pay">
         <segment>
           <source>Pay</source>
-          <target>Pay</target>
+          <target>پرداخت</target>
         </segment>
       </unit>
       <unit id="reference_id">
@@ -7245,13 +7245,13 @@
       <unit id="remarks">
         <segment>
           <source>Remarks</source>
-          <target>Remarks</target>
+          <target>توضیحات</target>
         </segment>
       </unit>
       <unit id="should_be_a_valid_number">
         <segment>
           <source>Should be a valid number (xxx.xx)</source>
-          <target>Should be a valid number (xxx.xx)</target>
+          <target>Should be یک valid number (xxx.xx)</target>
         </segment>
       </unit>
       <unit id="submit_claim">
