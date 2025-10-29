@@ -141,13 +141,13 @@ Recommended dimensions: {width}px X {height}px</source>
       <unit id="address_street_1">
         <segment>
           <source>Address Street 1</source>
-          <target>آدرس خیابان ۱</target>
+          <target>خیابان اصلی</target>
         </segment>
       </unit>
       <unit id="address_street_2">
         <segment>
            <source>Address Street 2</source>
-          <target>آدرس خیابان ۲</target>
+          <target>خیابان فرعی و پلاک</target>
         </segment>
       </unit>
       <unit id="admin">
@@ -4191,13 +4191,13 @@ Recommended dimensions: {width}px X {height}px</source>
       <unit id="street1">
         <segment>
           <source>Street 1</source>
-          <target>خیابان ۱</target>
+          <target>خیابان اصلی</target>
         </segment>
       </unit>
       <unit id="street2">
         <segment>
           <source>Street 2</source>
-           <target>خیابان ۲</target>
+           <target>خیابان فرعی و پلاک</target>
         </segment>
       </unit>
       <unit id="subordinates">
