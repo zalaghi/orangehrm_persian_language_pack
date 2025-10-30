@@ -69,3 +69,21 @@ body :is(
 .orangehrm-attendance-card-profile-image img{
   margin-left: .5rem;
 }
+.oxd-input-group__label-wrapper {
+  direction: rtl;
+}
+.oxd-icon[data-v-bddebfba] {
+  margin-left: 0.5rem;
+}
+.orangehrm-login-slot-wrapper {
+  direction: rtl;
+}
+.oxd-input-group__label-icon {
+  margin-left: .5rem;
+}
+.orangehrm-forgot-password-container {
+  direction: rtl;
+}
+.orangehrm-login-forgot-header {
+  color: white !important;
+}
