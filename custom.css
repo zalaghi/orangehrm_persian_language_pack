@@ -1,0 +1,71 @@
+/* IRANSansX for Persian text; layout stays LTR */
+
+/* Variable font (same folder as this CSS) */
+@font-face {
+  font-family: "IRANSansX-FA";
+  src: url("./IRANSansXV.woff2") format("woff2");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  /* Arabic/Persian blocks + controls */
+  unicode-range:
+    U+0600-06FF, U+0750-077F, U+08A0-08FF,
+    U+FB50-FDFF, U+FE70-FEFC,
+    U+061C, U+200C, U+200D, U+06F0-06F9;
+}
+
+/* Bold fallback */
+@font-face {
+  font-family: "IRANSansX-FA";
+  src: url("./IRANSansX-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Keep page LTR */
+html { direction: ltr; }
+
+/* Apply IRANSansX to text-bearing elements (avoid icon fonts) */
+body :is(
+  p, div, span, a, li, ul, ol, td, th, label, small, strong, em,
+  h1, h2, h3, h4, h5, h6, button, input, textarea, select
+):not(.oxd-icon):not([class^="bi-"]):not(.bi):not(.material-icons) {
+  font-family: "IRANSansX-FA", "Nunito Sans", Tahoma, Arial, sans-serif !important;
+}
+
+/* Persian lines RTL, without flipping the whole page */
+:lang(fa), [lang^="fa"], [lang*="fa-"], .text-fa, .fa {
+  direction: rtl;
+  text-align: right;
+  unicode-bidi: plaintext;
+}
+
+/* Reports grid (forces Nunito with !important) → override explicitly */
+.oxd-report-table revo-grid,
+.oxd-report-table revo-grid [data-rgcol] {
+  font-family: "IRANSansX-FA", Tahoma, Arial, sans-serif !important;
+}
+
+/*====================================================*/
+.oxd-layout-context {
+  direction: rtl;
+}
+
+.orangehrm-edit-employee-navigation {
+  text-align: center;
+}
+
+.oxd-button--medium {
+  margin-right: 0.5rem;
+}
+
+.oxd-topbar-body {
+  direction: rtl;
+}
+.orangehrm-dashboard-widget-icon {
+  margin-left: .5rem;
+}
+.orangehrm-attendance-card-profile-image img{
+  margin-left: .5rem;
+}
