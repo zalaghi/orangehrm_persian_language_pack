@@ -1,10 +1,12 @@
-add following line in the beginning of app.css:
-
-@import url("./custom.css");
+#add following line in the beginning of app.css:
 
 
-add following line in the end of app.js:
+<sub>@import url("./custom.css"); </sub>
 
+
+#add following line in the end of app.js:
+
+<sub>
 (function () {
   function inject() {
     var s = document.createElement("script");
@@ -18,3 +20,4 @@ add following line in the end of app.js:
     inject();
   }
 })();
+ </sub>
