@@ -1,10 +1,10 @@
-#add following line in the beginning of app.css:
+# add following line in the beginning of app.css:
 
 
 <sub>@import url("./custom.css"); </sub>
 
 
-#add following line in the end of app.js:
+# add following line in the end of app.js:
 
 <sub>
 (function () {
